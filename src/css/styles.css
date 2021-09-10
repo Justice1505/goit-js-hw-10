@@ -10,6 +10,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  font-weight: 300;
 }
 p {
   margin: 0;
@@ -25,7 +26,6 @@ p {
   list-style: none;
   display: flex;
   flex-direction: column;
-  font-weight: 700;
   font-size: 20px;
   padding: 0;
 }
@@ -33,10 +33,10 @@ p {
 .country-info {
   display: flex;
   flex-direction: column;
-  font-weight: 500;
+  font-weight: 700;
   padding: 0;
   margin: 0;
 }
 .oleg {
-  font-weight: 300;
+  font-weight: 500;
 }

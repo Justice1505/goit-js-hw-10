@@ -49,15 +49,15 @@ function createSearch(country) {
         }" style = "width: 200px">
           <div class="descr-wrapper">
             <p class="descr">
-              <span>Capital: </span>
-              <span class="oleg">${country.capital}</span>
+              <span class="oleg">Capital: </span>
+              <span >${country.capital}</span>
             </p>
             <p class="descr">
-              <span>Population: </span>
-              <span class="oleg">${country.population}</span>
+              <span class="oleg">Population: </span>
+              <span>${country.population}</span>
             </p>
             <p class="descr">
-              <span>Language: </span>
+              <span class="oleg">Language: </span>
               ${
                 country.languages.length > 1
                   ? `<ul class ="language_list"> 
